@@ -1,4 +1,4 @@
-## Matrix inversion is usually a costly computation and there may be some benefit to caching the inverse of a matrix rather than compute it repeatedly. Below are two functions that are used to create a special object that stores a matrix and cache's its inverse.
+## Matrix inversion is usually a costly computation and there may be benefit to caching the inverse of a matrix rather than compute it repeatedly. Below are two functions that are used to create a special object that stores a matrix and cache's its inverse.
 
 ## The first function, makeCacheMatrix creates a special "matrix", which is really a matrix containing a function to: set the value of matrix, get the value of the matrix, set the matrix of the inverse, get the matrix of the inverse
 
